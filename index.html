@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aclcalcu v2.0</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <form action="" class="inputNumber" name="inputNumber">
+            <h2>Masukan Angka</h2>
+            <input type="text" class="userNumber" name="isiNumber">
+        </form>
+        <div class="garis" style=" height: 3px; background-color: rgba(0, 0, 0, 0.467);"></div>
+        
+        <div class="tombol">
+            <button onclick="c()">C</button>
+            <button style="width: 104px;" class="Bkscp" type="" value="" onclick="Bkscp()">Bkscp</button>
+            <button onclick="Ins('+')">+</button>
+        </div>
+        <div class="tombol"> 
+            <button onclick="Ins(1)">1</button>
+            <button class="" type="" value="2" onclick="Ins(2)">2</button>
+            <button class="" type="" value="3" onclick="Ins(3)">3</button>
+            <button class="" type="" value="4" onclick="Ins('-')">-</button>
+        </div>
+        <div class="tombol">
+            <button class="" type="" value="" onclick="Ins(4)">4</button>
+            <button class="" type="" value="" onclick="Ins(5)">5</button>
+            <button class="" type="" value="" onclick="Ins(6)">6</button>
+            <button class="" type="" value="" onclick="Ins('*')">x</button>
+        </div>
+        <div class="tombol">
+            <button class="" type="" value="" onclick="Ins(8)">7</button>
+            <button class="" type="" value="" onclick="Ins(8)">8</button>
+            <button class="" type="" value="" onclick="Ins(9)">9</button>
+            <button class="" type="" value="" onclick="Ins('/')">/</button>
+        </div>
+        <div class="tombol">
+            <button class="" type="" value="" onclick="Ins('.')">.</button>
+            <button class="" type="" value="" onclick="Ins(0)">0</button>
+            <button style="width: 104px;" class="" type="" value="" onclick="samaDengan()">=</button>
+        </div>
+    </div>
+
+    <script src="fungsi.js"></script>
+
+</body>
+</html>
